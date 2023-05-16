@@ -1,0 +1,202 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    width: 660px;
+    height: 270px;
+    font-family: 'Gochi Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 90px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.btn {
+    width: 250px;
+    height: 26px;
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    background: #F6D524;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 5px;
+    width: 330px;
+    height: 62px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.container {
+    max-width: 2000px;
+    margin:  0 auto;
+    margin-left: 150px;
+    
+}
+
+.vectorL {
+height: 30.00118064880371px;
+width: 23.669822692871094px;
+left: 0.00177001953125px;
+top: 0px;
+border-radius: 0px;
+
+}
+
+/*
+.vectorR {
+    height: 31.908620834350586px;
+    width: 20.014516830444336px;
+    left: 19.99761962890625px;
+    top: -0.0000762939453125px;
+    border-radius: 0px;
+    
+}
+
+.vectorB {
+    height: 15.716461181640625px;
+    width: 35.1502685546875px;
+    left: 2.1412353515625px;
+    top: 24.281143188476562px;
+    border-radius: 0px;
+    position: relative;
+  z-index: 2;
+    
+    
+}
+*/
+
+.searchInput {
+    background: #FFFFFF;
+    border: 1px solid #BABABA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 95%;
+    height: 2.0rem;
+    outline: none;
+    background: url(./Assets/search.png) 3% center no-repeat;
+    padding: 0 2.5rem;
+    margin-top: 1rem;
+
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #BABABA;
+    
+}
+.nav {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all;
+    position: fixed;
+    z-index: 1;
+}
+.nav .container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav a {
+width: 98px;
+height: 21px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #4B4B4B;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7px 15px;
+gap: 10px;
+}
+
+
+.hero {
+    background-image: url(./assets/roselyn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: calc(100vh + 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: -50px;
+    z-index: -1;
+
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 182, 218, 0.8);
+    z-index: -2;
+}
+
+.dropdown .dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdownMenu {
+    display: block;
+  }
+  
+  .dropdownMenu li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdownMenu li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdownMenu li a:hover {
+    color: #000;
+  }
+  
